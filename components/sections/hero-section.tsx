@@ -2,27 +2,26 @@
 
 import { motion } from 'framer-motion';
 import { ButtonPrimary } from '@/components/ui/button-primary';
-import { ArrowRight, Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { ArrowRight, Github, Linkedin, Twitter, Mail, Sparkles } from 'lucide-react';
 import Image from 'next/image';
 
 const socialLinks = [
-  { href: 'https://github.com/hoodini', icon: Github, label: 'GitHub' },
-  { href: 'https://www.linkedin.com/in/%F0%9F%8E%97%EF%B8%8Fyuval-avidani-87081474/', icon: Linkedin, label: 'LinkedIn' },
-  { href: 'https://twitter.com/yuvai', icon: Twitter, label: 'Twitter' },
-  { href: 'mailto:info@yuv.ai', icon: Mail, label: 'Email' },
+  { href: 'https://github.com/daniel', icon: Github, label: 'GitHub' },
+  { href: 'https://www.linkedin.com/in/daniel', icon: Linkedin, label: 'LinkedIn' },
+  { href: 'https://twitter.com/daniel', icon: Twitter, label: 'Twitter' },
+  { href: 'mailto:contact@daniel-ai.com', icon: Mail, label: 'Email' },
 ];
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden pt-24 bg-gradient-to-b from-[#FFF5F8] via-background to-background dark:from-[#1C1C1E] dark:via-[#1C1C1E] dark:to-[#1C1C1E]">
-      {/* Background Glow Effects */}
+    <section className="relative min-h-[100vh] flex items-center justify-center overflow-hidden pt-24 bg-gradient-to-b from-background via-background to-muted/30">
+      {/* Background Glow Effects - Apple Style */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {/* Primary pink glow */}
         <motion.div
-          className="absolute top-[15%] right-[15%] w-[500px] h-[500px] rounded-full bg-[#FF4D8E]/20 dark:bg-[#FF4D8E]/15 blur-[120px]"
+          className="absolute top-[20%] right-[20%] w-[500px] h-[500px] rounded-full bg-primary/10 blur-[120px]"
           animate={{
             scale: [1, 1.1, 1],
-            opacity: [0.4, 0.6, 0.4],
+            opacity: [0.3, 0.5, 0.3],
           }}
           transition={{
             duration: 8,
@@ -30,32 +29,17 @@ export function HeroSection() {
             ease: 'easeInOut',
           }}
         />
-        {/* Secondary blue glow */}
         <motion.div
-          className="absolute top-[30%] right-[25%] w-[400px] h-[400px] rounded-full bg-[#00C2FF]/15 dark:bg-[#00C2FF]/10 blur-[100px]"
+          className="absolute bottom-[20%] left-[20%] w-[400px] h-[400px] rounded-full bg-primary/8 blur-[100px]"
           animate={{
             scale: [1, 1.15, 1],
-            opacity: [0.3, 0.5, 0.3],
+            opacity: [0.2, 0.4, 0.2],
           }}
           transition={{
             duration: 10,
             repeat: Infinity,
             ease: 'easeInOut',
             delay: 1,
-          }}
-        />
-        {/* Orange accent glow */}
-        <motion.div
-          className="absolute bottom-[20%] right-[20%] w-[300px] h-[300px] rounded-full bg-[#FF9100]/10 dark:bg-[#FF9100]/8 blur-[80px]"
-          animate={{
-            scale: [1, 1.2, 1],
-            opacity: [0.2, 0.35, 0.2],
-          }}
-          transition={{
-            duration: 12,
-            repeat: Infinity,
-            ease: 'easeInOut',
-            delay: 2,
           }}
         />
       </div>
@@ -75,10 +59,10 @@ export function HeroSection() {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-panel-dark text-sm font-medium text-white/90 mb-6"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-sm font-medium text-foreground mb-6"
             >
-              <span className="w-2 h-2 rounded-full bg-[#FF4D8E] animate-pulse" />
-              AI Builder & Speaker
+              <Sparkles className="w-4 h-4 text-primary" />
+              AI Engineer & Developer
             </motion.div>
 
             {/* Main Headline */}
@@ -88,9 +72,12 @@ export function HeroSection() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-[1.1] tracking-tight mb-6"
             >
-              Innovating AI
+              Building the Future
               <br />
-              <span className="text-[#FF4D8E]">&</span> Development
+              with{' '}
+              <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
+                Artificial Intelligence
+              </span>
             </motion.h1>
 
             {/* Subtitle */}
@@ -100,7 +87,8 @@ export function HeroSection() {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="text-lg md:text-xl text-muted-foreground max-w-xl leading-relaxed mb-8"
             >
-              Building next-generation AI solutions and empowering developers to create transformative experiences
+              Passionate about creating intelligent systems that solve real-world problems. 
+              Specializing in Large Language Models, Machine Learning, and AI-powered applications.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -113,17 +101,17 @@ export function HeroSection() {
               <ButtonPrimary
                 size="lg"
                 className="group"
-                onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('resume')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                View Projects
+                View Resume
                 <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
               </ButtonPrimary>
               <ButtonPrimary
                 size="lg"
                 variant="outline"
-                onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                About Me
+                Explore Skills
               </ButtonPrimary>
             </motion.div>
 

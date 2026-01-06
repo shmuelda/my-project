@@ -45,13 +45,13 @@
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
 
-  /* YUV.AI Brand Colors */
-  --color-yuv-pink: #FF4D8E;
-  --color-yuv-blue: #00C2FF;
-  --color-yuv-orange: #FF9100;
-  --color-yuv-dark: #1C1C1E;
-  --color-yuv-gray-900: #1C1C1E;
-  --color-yuv-gray-100: #F2F2F7;
+  /* Apple-inspired Colors */
+  --color-apple-blue: #007AFF;
+  --color-apple-gray: #8E8E93;
+  --color-apple-light-gray: #C7C7CC;
+  --color-apple-dark: #1C1C1E;
+  --color-apple-gray-900: #1C1C1E;
+  --color-apple-gray-100: #F2F2F7;
 
   /* Custom border radius */
   --radius-card: 16px;
@@ -61,31 +61,31 @@
 
 /* ========== LIGHT MODE (DEFAULT) ========== */
 :root {
-  --radius: 0.625rem;
-  --background: 0 0% 98%; /* #FAFAFA */
-  --foreground: 0 0% 9%; /* Near black text */
+  --radius: 0.75rem;
+  --background: 0 0% 100%; /* Pure white like Apple */
+  --foreground: 0 0% 7%; /* Near black text */
 
-  /* Navbar glass styling */
-  --nav-bg: rgba(255, 255, 255, 0.7);
-  --nav-border: rgba(255, 255, 255, 0.3);
-  --nav-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  /* Navbar glass styling - Apple style */
+  --nav-bg: rgba(255, 255, 255, 0.8);
+  --nav-border: rgba(0, 0, 0, 0.1);
+  --nav-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
 
   --card: 0 0% 100%;
-  --card-foreground: 0 0% 9%;
+  --card-foreground: 0 0% 7%;
 
   --popover: 0 0% 100%;
-  --popover-foreground: 0 0% 9%;
+  --popover-foreground: 0 0% 7%;
 
-  --primary: 338 100% 65%; /* #FF4D8E - YUV Pink */
+  --primary: 211 100% 50%; /* #007AFF - Apple Blue */
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 195 100% 50%; /* #00C2FF - Cyber Blue */
+  --secondary: 240 6% 10%; /* Dark gray */
   --secondary-foreground: 0 0% 100%;
 
-  --muted: 240 5% 96%;
-  --muted-foreground: 240 4% 46%;
+  --muted: 240 5% 97%;
+  --muted-foreground: 0 0% 56%;
 
-  --accent: 34 100% 50%; /* #FF9100 - Phoenix Orange */
+  --accent: 211 100% 50%; /* Apple Blue accent */
   --accent-foreground: 0 0% 100%;
 
   --destructive: 0 84% 60%;

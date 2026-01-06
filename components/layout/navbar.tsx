@@ -18,8 +18,8 @@ import { useEffect, useState } from 'react';
 
 const navLinks = [
   { href: '/#about', label: 'About' },
-  { href: '/#projects', label: 'Projects' },
-  { href: '/blog', label: 'Blog' },
+  { href: '/#skills', label: 'Skills' },
+  { href: '/#resume', label: 'Resume' },
   { href: '/#contact', label: 'Contact' },
 ];
 
@@ -92,13 +92,13 @@ export function Navbar() {
         <button onClick={handleLogoClick} className="flex items-center gap-2 shrink-0 cursor-pointer">
           <Image
             src="/round-avatar.svg"
-            alt="YUV.AI Logo"
+            alt="Daniel.AI Logo"
             width={24}
             height={24}
             className="rounded-full md:w-7 md:h-7"
           />
           <span className="text-base md:text-lg font-semibold text-foreground tracking-tight">
-            YUV.AI
+            Daniel.AI
           </span>
         </button>
 

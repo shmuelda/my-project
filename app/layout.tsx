@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "YUV.AI | Yuval Avidani - AI Builder & Speaker",
-  description: "Innovating AI & Development. Building next-generation AI solutions and empowering developers to create transformative experiences. AWS AI Superstar, GitHub Star, Founder of YUV.AI Community.",
-  keywords: ["Yuval Avidani", "YUV.AI", "AI Builder", "AI Speaker", "Machine Learning", "Developer", "AWS AI Superstar", "GitHub Star"],
-  authors: [{ name: "Yuval Avidani", url: "https://yuv.ai" }],
+  title: "Daniel.AI | AI Engineer & Developer",
+  description: "Showcasing AI expertise and innovative solutions. Passionate about building intelligent systems and pushing the boundaries of artificial intelligence.",
+  keywords: ["Daniel", "Daniel.AI", "AI Engineer", "Machine Learning", "Artificial Intelligence", "Developer", "AI Portfolio"],
+  authors: [{ name: "Daniel", url: "https://daniel-ai.com" }],
   icons: {
     icon: [
       { url: "/round-avatar.svg", type: "image/svg+xml" },
@@ -25,16 +25,16 @@ export const metadata: Metadata = {
     apple: "/round-avatar.svg",
   },
   openGraph: {
-    title: "YUV.AI | Yuval Avidani - AI Builder & Speaker",
-    description: "Innovating AI & Development. Building next-generation AI solutions and empowering developers to create transformative experiences.",
+    title: "Daniel.AI | AI Engineer & Developer",
+    description: "Showcasing AI expertise and innovative solutions. Building intelligent systems for the future.",
     type: "website",
-    url: "https://yuv.ai",
+    url: "https://daniel-ai.com",
   },
   twitter: {
     card: "summary_large_image",
-    title: "YUV.AI | Yuval Avidani - AI Builder & Speaker",
-    description: "Innovating AI & Development. Building next-generation AI solutions and empowering developers.",
-    creator: "@yuvai",
+    title: "Daniel.AI | AI Engineer & Developer",
+    description: "Showcasing AI expertise and innovative solutions.",
+    creator: "@daniel",
   },
 };
 

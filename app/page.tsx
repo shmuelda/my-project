@@ -2,12 +2,10 @@
 
 import { Navbar } from '@/components/layout/navbar';
 import { Footer } from '@/components/layout/footer';
-import { BoilerplateHero } from '@/components/sections/boilerplate-hero';
-import { WhyThisStackSection } from '@/components/sections/why-this-stack';
-import { BunComparisonSection } from '@/components/sections/bun-comparison';
-import { QuickStartSection } from '@/components/sections/quick-start';
-import { CustomizeSection } from '@/components/sections/customize-section';
-import { StackSection } from '@/components/sections/stack-section';
+import { HeroSection } from '@/components/sections/hero-section';
+import { AboutSection } from '@/components/sections/about-section';
+import { SkillsSection } from '@/components/sections/skills-section';
+import { ResumeSection } from '@/components/sections/resume-section';
 import { CTASection } from '@/components/sections/cta-section';
 import { ScrollToTop } from '@/components/ui/scroll-to-top';
 
@@ -15,12 +13,10 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground">
       <Navbar />
-      <BoilerplateHero />
-      <WhyThisStackSection />
-      <StackSection />
-      <BunComparisonSection />
-      <QuickStartSection />
-      <CustomizeSection />
+      <HeroSection />
+      <AboutSection />
+      <SkillsSection />
+      <ResumeSection />
       <CTASection />
       <Footer />
       <ScrollToTop />

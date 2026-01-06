@@ -5,34 +5,34 @@ import { Brain, Code2, Cpu, Globe, Sparkles, Zap } from 'lucide-react';
 import Image from 'next/image';
 
 const skills = [
-  { icon: Brain, label: 'AI/ML', color: '#FF4D8E' },
-  { icon: Code2, label: 'Full-Stack', color: '#00C2FF' },
-  { icon: Cpu, label: 'MLOps', color: '#FF9100' },
-  { icon: Globe, label: 'Cloud', color: '#FF4D8E' },
-  { icon: Sparkles, label: 'Gen AI', color: '#00C2FF' },
-  { icon: Zap, label: 'DevOps', color: '#FF9100' },
+  { icon: Brain, label: 'AI/ML', color: '#007AFF' },
+  { icon: Code2, label: 'Full-Stack', color: '#007AFF' },
+  { icon: Cpu, label: 'MLOps', color: '#007AFF' },
+  { icon: Globe, label: 'Cloud', color: '#007AFF' },
+  { icon: Sparkles, label: 'Gen AI', color: '#007AFF' },
+  { icon: Zap, label: 'DevOps', color: '#007AFF' },
 ];
 
 const timeline = [
   {
     year: '2024',
-    title: 'AWS AI Superstar',
-    description: 'Recognized as AWS AI Superstar for contributions to AI community and innovative solutions.',
+    title: 'AI Innovation Leader',
+    description: 'Leading AI transformation initiatives and building production-ready ML systems.',
   },
   {
     year: '2023',
-    title: 'GitHub Star',
-    description: 'Awarded GitHub Star status for open source contributions and community engagement.',
+    title: 'Machine Learning Expert',
+    description: 'Specialized in LLMs, NLP, and building AI-powered applications at scale.',
   },
   {
     year: '2022',
-    title: 'Founded YUV.AI',
-    description: 'Launched YUV.AI community to empower developers with AI tools and education.',
+    title: 'AI Engineer',
+    description: 'Developed enterprise AI solutions and deployed models serving millions of users.',
   },
   {
     year: '2020',
-    title: 'AI Speaker Journey',
-    description: 'Started speaking at international conferences on AI, ML, and developer experience.',
+    title: 'Started AI Journey',
+    description: 'Began specializing in artificial intelligence and machine learning technologies.',
   },
 ];
 
@@ -60,7 +60,7 @@ const itemVariants = {
 
 export function AboutSection() {
   return (
-    <section id="about" className="py-24 px-6 relative bg-[#F2F2F7]">
+    <section id="about" className="py-24 px-6 relative bg-muted/30">
       <div className="max-w-6xl mx-auto relative z-10">
         {/* Section Header */}
         <motion.div
@@ -70,10 +70,10 @@ export function AboutSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-[#1C1C1E] mb-4">
-            About
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+            About Me
           </h2>
-          <p className="text-[#1C1C1E]/60 text-lg max-w-2xl mx-auto">
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Passionate about building AI solutions that make a real impact
           </p>
         </motion.div>
@@ -86,57 +86,60 @@ export function AboutSection() {
             viewport={{ once: true, margin: '-50px' }}
             transition={{ duration: 0.6 }}
           >
-            <div className="glass-light shadow-glass rounded-[16px] p-8">
+            <div className="bg-card rounded-2xl p-8 border border-border shadow-lg">
               {/* Profile Header */}
               <div className="flex items-start gap-6 mb-8">
-                <div className="relative w-20 h-20 rounded-2xl overflow-hidden border-2 border-[#FF4D8E]/20 shrink-0">
+                <div className="relative w-20 h-20 rounded-2xl overflow-hidden border-2 border-primary/20 shrink-0">
                   <Image
-                    src="https://cdn.hailuoai.video/moss/prod/2026-01-01-02/user/multi_chat_file/1767204442417679023-304191379171532808_1767204439.jpg"
-                    alt="Yuval Avidani"
+                    src="/round-avatar.svg"
+                    alt="Daniel"
                     fill
                     className="object-cover"
                   />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-[#1C1C1E] mb-1">Yuval Avidani</h3>
-                  <p className="text-[#FF4D8E] font-medium mb-2">AI Builder & Speaker</p>
-                  <div className="flex items-center gap-3 text-sm text-[#1C1C1E]/50">
-                    <a href="mailto:yuval.avidani@gmail.com" className="hover:text-[#1C1C1E] transition-colors">
-                      yuval.avidani@gmail.com
+                  <h3 className="text-2xl font-bold text-foreground mb-1">Daniel</h3>
+                  <p className="text-primary font-medium mb-2">AI Engineer & Developer</p>
+                  <div className="flex items-center gap-3 text-sm text-muted-foreground">
+                    <a href="mailto:contact@daniel-ai.com" className="hover:text-foreground transition-colors">
+                      contact@daniel-ai.com
                     </a>
                   </div>
                 </div>
               </div>
 
               {/* Bio Text */}
-              <div className="space-y-4 text-[#1C1C1E]/70 leading-relaxed">
+              <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I'm a passionate AI builder and speaker dedicated to pushing the boundaries of what's possible with artificial intelligence. With deep expertise in machine learning, full-stack development, and cloud architecture, I build solutions that transform how people work and create.
+                  I'm a passionate AI engineer dedicated to building intelligent systems that solve real-world problems. 
+                  With expertise in machine learning, large language models, and full-stack development, I create 
+                  AI-powered applications that make an impact.
                 </p>
                 <p>
-                  As the founder of YUV.AI, I lead a community of developers exploring the frontiers of AI technology. My work spans from building production ML systems to speaking at international conferences about the future of AI-assisted development.
+                  My journey in AI has led me to work on diverse projects, from natural language processing systems 
+                  to computer vision applications. I specialize in deploying production-ready ML models and building 
+                  scalable AI infrastructure.
                 </p>
                 <p>
-                  When I'm not coding or speaking, you'll find me mentoring the next generation of AI engineers and contributing to open-source projects that democratize access to AI tools.
+                  I'm always learning and exploring new technologies in the AI space, staying at the forefront of 
+                  innovations in machine learning and artificial intelligence.
                 </p>
               </div>
 
               {/* Quick Links */}
-              <div className="mt-8 pt-6 border-t border-[#1C1C1E]/10">
+              <div className="mt-8 pt-6 border-t border-border">
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://github.com/hoodini"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-4 py-2 rounded-full border border-[#1C1C1E]/20 text-sm text-[#1C1C1E]/70 hover:text-[#1C1C1E] hover:border-[#1C1C1E]/40 transition-colors"
+                    href="#resume"
+                    className="px-4 py-2 rounded-full border border-border text-sm text-foreground hover:border-primary transition-colors"
                   >
-                    Blog content
+                    View Resume
                   </a>
                   <a
-                    href="#projects"
-                    className="px-4 py-2 rounded-full bg-[#1C1C1E] text-sm text-white hover:bg-[#1C1C1E]/90 transition-colors"
+                    href="#skills"
+                    className="px-4 py-2 rounded-full bg-primary text-primary-foreground text-sm hover:opacity-90 transition-opacity"
                   >
-                    View Projects
+                    Explore Skills
                   </a>
                 </div>
               </div>
