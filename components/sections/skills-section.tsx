@@ -4,69 +4,69 @@ import { Brain, Code, Database, Zap, GitBranch, Cloud } from 'lucide-react';
 
 const skillCategories = [
   {
-    title: 'AI & Machine Learning',
+    title: 'Engineering Leadership',
     icon: Brain,
     skills: [
-      { name: 'Large Language Models', level: 95 },
-      { name: 'NLP & Text Processing', level: 90 },
-      { name: 'Computer Vision', level: 85 },
-      { name: 'Deep Learning (PyTorch/TensorFlow)', level: 90 },
-      { name: 'MLOps & Model Deployment', level: 85 },
+      { name: 'Large-Scale Team Leadership (100+ Engineers)', level: 95 },
+      { name: 'Engineering Strategy & Roadmap', level: 95 },
+      { name: 'AI Transformation & Enablement', level: 92 },
+      { name: 'SDLC Modernization', level: 90 },
+      { name: 'Talent Management & Recruitment', level: 92 },
     ],
   },
   {
-    title: 'Programming Languages',
+    title: 'Technical Architecture',
     icon: Code,
     skills: [
-      { name: 'Python', level: 95 },
-      { name: 'TypeScript/JavaScript', level: 88 },
-      { name: 'Go', level: 75 },
-      { name: 'SQL', level: 85 },
-      { name: 'Rust', level: 70 },
+      { name: 'Cloud Architecture (AWS)', level: 90 },
+      { name: 'Distributed Systems & Scalability', level: 88 },
+      { name: 'CI/CD & DevOps Practices', level: 88 },
+      { name: 'Kafka & Message Queues', level: 85 },
+      { name: 'Hybrid & Cloud Infrastructure', level: 85 },
     ],
   },
   {
-    title: 'AI Frameworks & Tools',
+    title: 'Strategic Initiatives',
     icon: Zap,
     skills: [
-      { name: 'LangChain / LlamaIndex', level: 92 },
-      { name: 'OpenAI API / Anthropic Claude', level: 95 },
-      { name: 'Hugging Face Transformers', level: 88 },
-      { name: 'Vector Databases (Pinecone/Weaviate)', level: 85 },
-      { name: 'Scikit-learn / XGBoost', level: 90 },
+      { name: 'AI Developer Enablement Programs', level: 92 },
+      { name: 'Cost & Value Optimization', level: 90 },
+      { name: 'Agile & Scrum Adoption', level: 92 },
+      { name: 'Cross-Company Delivery', level: 88 },
+      { name: 'Public Speaking & Thought Leadership', level: 85 },
     ],
   },
   {
     title: 'Cloud & Infrastructure',
     icon: Cloud,
     skills: [
-      { name: 'AWS (SageMaker, Lambda, EC2)', level: 88 },
-      { name: 'Azure AI Services', level: 82 },
-      { name: 'Google Cloud (Vertex AI)', level: 80 },
+      { name: 'AWS (EC2, Lambda, RDS, SageMaker)', level: 90 },
+      { name: 'Cloud Security & Compliance', level: 85 },
       { name: 'Docker & Kubernetes', level: 85 },
-      { name: 'Terraform / IaC', level: 78 },
+      { name: 'GitHub Copilot & Developer Tools', level: 92 },
+      { name: 'Infrastructure as Code (Terraform, Bicep)', level: 82 },
     ],
   },
   {
-    title: 'Data & Databases',
+    title: 'Distributed Systems',
     icon: Database,
     skills: [
-      { name: 'PostgreSQL / MySQL', level: 88 },
-      { name: 'MongoDB / NoSQL', level: 85 },
-      { name: 'Redis / Caching', level: 82 },
-      { name: 'Apache Spark / Big Data', level: 80 },
-      { name: 'ETL Pipelines', level: 85 },
+      { name: 'Kafka & Event Streaming', level: 88 },
+      { name: 'Redis & Caching Systems', level: 85 },
+      { name: 'Database Architecture (SQL/NoSQL)', level: 88 },
+      { name: 'Queue Systems & Async Processing', level: 85 },
+      { name: 'System Performance & Optimization', level: 87 },
     ],
   },
   {
-    title: 'Development Tools',
+    title: 'Development & Practices',
     icon: GitBranch,
     skills: [
-      { name: 'Git / GitHub / CI/CD', level: 92 },
-      { name: 'VS Code / IDEs', level: 95 },
-      { name: 'Jupyter / Notebooks', level: 90 },
-      { name: 'FastAPI / Flask', level: 88 },
-      { name: 'Next.js / React', level: 85 },
+      { name: 'DORA Metrics & Quality Frameworks', level: 90 },
+      { name: 'Continuous Integration & Deployment', level: 92 },
+      { name: 'Agile Ceremonies & Mindset', level: 92 },
+      { name: 'Code Quality & Testing', level: 88 },
+      { name: 'Engineering Best Practices', level: 92 },
     ],
   },
 ];
@@ -81,7 +81,7 @@ export function SkillsSection() {
             Skills & Expertise
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A comprehensive overview of my technical skills and proficiency levels
+            15+ years of leadership experience spanning engineering strategy, AI transformation, cloud architecture, and distributed systems
           </p>
         </div>
 
@@ -135,7 +135,7 @@ export function SkillsSection() {
         {/* Additional Info */}
         <div className="mt-12 text-center">
           <p className="text-muted-foreground">
-            Always learning and exploring new technologies in the AI space 🚀
+            Proven track record delivering scalable systems, leading transformative initiatives, and building high-performing teams across global organizations 🚀
           </p>
         </div>
       </div>

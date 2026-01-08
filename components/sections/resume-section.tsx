@@ -4,60 +4,54 @@ import { Briefcase, GraduationCap, Award } from 'lucide-react';
 
 const experiences = [
   {
-    title: 'Senior AI Engineer',
-    company: 'Tech Innovations Inc.',
-    period: '2022 - Present',
-    description: 'Leading AI/ML initiatives, developing NLP solutions, and implementing LLM-based applications.',
+    title: 'R&D Director, Core & AI Transformation Lead',
+    company: 'evoke',
+    period: '2023 - Present',
+    description: 'Lead engineering strategy and execution for customer onboarding, digital marketing platforms, and AI transformation across the organization. Direct multi-disciplinary teams and deliver secure, scalable systems aligned with business goals.',
     achievements: [
-      'Built production-ready AI agents using LangChain and OpenAI',
-      'Improved model accuracy by 35% through fine-tuning',
-      'Led a team of 5 engineers on ML infrastructure projects',
+      'Led company-wide AI transformation, deploying GitHub Copilot to 1,200 developers - achieving 10% productivity increase within one year',
+      'Defined long-term technology strategy delivering multi-program roadmaps improving scalability, security, and platform reliability across Core division',
+      'Mentored and developed managers and engineers, enhancing leadership capabilities across Team Leads and Group Managers to build autonomous, high-performing teams',
+      'Provided hands-on technical leadership for complex cloud-based solutions across AWS and Hybrid Architecture',
+      'Represented organization as public speaker at technology events, strengthening brand and thought leadership',
     ],
   },
   {
-    title: 'Machine Learning Engineer',
-    company: 'AI Solutions Co.',
-    period: '2020 - 2022',
-    description: 'Developed and deployed machine learning models for various business applications.',
+    title: 'R&D Director, Core Engineering',
+    company: '888.com',
+    period: '2005 - 2023',
+    description: 'Progressive leadership journey from hands-on developer to engineering director. Consistently combined strong technical expertise with leadership excellence, delivery, and business partnership across 18-year tenure.',
     achievements: [
-      'Implemented computer vision systems for quality control',
-      'Created recommendation systems serving 1M+ users',
-      'Reduced inference latency by 60% through optimization',
-    ],
-  },
-  {
-    title: 'Data Scientist',
-    company: 'DataTech Corp',
-    period: '2018 - 2020',
-    description: 'Analyzed large datasets and built predictive models to drive business decisions.',
-    achievements: [
-      'Built customer churn prediction models with 85% accuracy',
-      'Automated data pipelines processing 10TB+ daily',
-      'Presented insights to C-level executives',
+      'Led end-to-end delivery of hundreds of large-scale projects, remaining hands-on while contributing to architecture and design across multiple technologies',
+      'Generated £1.5M in annual savings through AI-powered QA automation initiatives',
+      'Improved organizational operating efficiency by reducing time-to-hire by 70% and establishing streamlined recruitment process',
+      'Improved team velocity by 20% after leading Agile adoption, strengthening predictability, transparency, and team autonomy',
+      'Reduced time-to-market by 70% by streamlining development flows and improving collaboration between engineering and product',
+      'Established quality guardrails using DORA metrics, improving cycle time, deployment frequency, and change failure rate across development units',
     ],
   },
 ];
 
 const education = [
   {
-    degree: 'Master of Science in Computer Science',
-    school: 'Stanford University',
-    period: '2016 - 2018',
-    focus: 'Specialization in Artificial Intelligence and Machine Learning',
+    degree: 'Master of Science in Business Administration',
+    school: 'Tel Aviv University',
+    period: '2011 - 2014',
+    focus: 'Business Administration & Strategic Management',
   },
   {
-    degree: 'Bachelor of Science in Computer Engineering',
-    school: 'MIT',
-    period: '2012 - 2016',
-    focus: 'Minor in Mathematics',
+    degree: 'Bachelor of Science in Electronics and Communications',
+    school: 'Tel Aviv University',
+    period: '2002 - 2006',
+    focus: 'Electronics Engineering & Communications Technology',
   },
 ];
 
 const certifications = [
-  'AWS Certified Machine Learning - Specialty',
-  'Google Cloud Professional ML Engineer',
-  'Deep Learning Specialization (Coursera)',
-  'Microsoft Azure AI Engineer Associate',
+  'AWS Certified Solutions Architect - Professional',
+  'Agile Certified Practitioner (ACP)',
+  'ITIL Foundation Certification',
+  'Leadership & Organizational Development',
 ];
 
 export function ResumeSection() {
@@ -70,7 +64,7 @@ export function ResumeSection() {
             Resume
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            My professional journey in artificial intelligence and machine learning
+            15+ years of engineering leadership, AI transformation, and building scalable systems at enterprise scale
           </p>
         </div>
 

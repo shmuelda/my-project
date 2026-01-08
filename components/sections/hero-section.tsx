@@ -6,10 +6,10 @@ import { ArrowRight, Github, Linkedin, Twitter, Mail, Sparkles } from 'lucide-re
 import Image from 'next/image';
 
 const socialLinks = [
-  { href: 'https://github.com/daniel', icon: Github, label: 'GitHub' },
-  { href: 'https://www.linkedin.com/in/daniel', icon: Linkedin, label: 'LinkedIn' },
-  { href: 'https://twitter.com/daniel', icon: Twitter, label: 'Twitter' },
-  { href: 'mailto:contact@daniel-ai.com', icon: Mail, label: 'Email' },
+  { href: 'https://github.com/shmueldaniel', icon: Github, label: 'GitHub' },
+  { href: 'https://www.linkedin.com/in/shmueldaniel', icon: Linkedin, label: 'LinkedIn' },
+  { href: 'https://twitter.com/shmueldaniel', icon: Twitter, label: 'Twitter' },
+  { href: 'mailto:Daniel.shmuel@gmail.com', icon: Mail, label: 'Email' },
 ];
 
 export function HeroSection() {
@@ -62,7 +62,7 @@ export function HeroSection() {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-sm font-medium text-foreground mb-6"
             >
               <Sparkles className="w-4 h-4 text-primary" />
-              AI Engineer & Developer
+              Director of Engineering
             </motion.div>
 
             {/* Main Headline */}
@@ -72,11 +72,11 @@ export function HeroSection() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-[1.1] tracking-tight mb-6"
             >
-              Building the Future
+              Transforming Engineering
               <br />
-              with{' '}
+              at{' '}
               <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-                Artificial Intelligence
+                Scale
               </span>
             </motion.h1>
 
@@ -87,8 +87,7 @@ export function HeroSection() {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="text-lg md:text-xl text-muted-foreground max-w-xl leading-relaxed mb-8"
             >
-              Passionate about creating intelligent systems that solve real-world problems. 
-              Specializing in Large Language Models, Machine Learning, and AI-powered applications.
+              Director of Engineering with 15+ years leading large teams of 100+ engineers. Expert in AI transformation, engineering strategy, and building scalable systems across AWS and distributed architectures.
             </motion.p>
 
             {/* CTA Buttons */}

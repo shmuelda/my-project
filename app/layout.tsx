@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Daniel.AI | AI Engineer & Developer",
-  description: "Showcasing AI expertise and innovative solutions. Passionate about building intelligent systems and pushing the boundaries of artificial intelligence.",
-  keywords: ["Daniel", "Daniel.AI", "AI Engineer", "Machine Learning", "Artificial Intelligence", "Developer", "AI Portfolio"],
-  authors: [{ name: "Daniel", url: "https://daniel-ai.com" }],
+  title: "Shmuel Daniel | Director of Engineering",
+  description: "Director of Engineering with 15+ years leading large teams of 100+ engineers. Expert in AI transformation, SDLC modernization, and building scalable systems across AWS and distributed architectures.",
+  keywords: ["Shmuel Daniel", "Director of Engineering", "Engineering Leadership", "AI Transformation", "SDLC Modernization", "Cloud Architecture", "Engineering Strategy"],
+  authors: [{ name: "Shmuel Daniel", url: "https://shmuel-daniel.com" }],
   icons: {
     icon: [
       { url: "/round-avatar.svg", type: "image/svg+xml" },
@@ -25,16 +25,16 @@ export const metadata: Metadata = {
     apple: "/round-avatar.svg",
   },
   openGraph: {
-    title: "Daniel.AI | AI Engineer & Developer",
-    description: "Showcasing AI expertise and innovative solutions. Building intelligent systems for the future.",
+    title: "Shmuel Daniel | Director of Engineering",
+    description: "Director of Engineering with 15+ years of leadership experience. Expert in AI transformation and engineering strategy.",
     type: "website",
-    url: "https://daniel-ai.com",
+    url: "https://shmuel-daniel.com",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Daniel.AI | AI Engineer & Developer",
-    description: "Showcasing AI expertise and innovative solutions.",
-    creator: "@daniel",
+    title: "Shmuel Daniel | Director of Engineering",
+    description: "Director of Engineering with 15+ years leading large teams and driving AI transformation.",
+    creator: "@shmueldaniel",
   },
 };
 

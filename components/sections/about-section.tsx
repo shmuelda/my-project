@@ -5,34 +5,34 @@ import { Brain, Code2, Cpu, Globe, Sparkles, Zap } from 'lucide-react';
 import Image from 'next/image';
 
 const skills = [
-  { icon: Brain, label: 'AI/ML', color: '#007AFF' },
-  { icon: Code2, label: 'Full-Stack', color: '#007AFF' },
-  { icon: Cpu, label: 'MLOps', color: '#007AFF' },
+  { icon: Brain, label: 'Leadership', color: '#007AFF' },
+  { icon: Code2, label: 'Architecture', color: '#007AFF' },
+  { icon: Cpu, label: 'Transformation', color: '#007AFF' },
   { icon: Globe, label: 'Cloud', color: '#007AFF' },
-  { icon: Sparkles, label: 'Gen AI', color: '#007AFF' },
-  { icon: Zap, label: 'DevOps', color: '#007AFF' },
+  { icon: Sparkles, label: 'Innovation', color: '#007AFF' },
+  { icon: Zap, label: 'Strategy', color: '#007AFF' },
 ];
 
 const timeline = [
   {
-    year: '2024',
-    title: 'AI Innovation Leader',
-    description: 'Leading AI transformation initiatives and building production-ready ML systems.',
-  },
-  {
     year: '2023',
-    title: 'Machine Learning Expert',
-    description: 'Specialized in LLMs, NLP, and building AI-powered applications at scale.',
+    title: 'AI Transformation Leader',
+    description: 'Leading AI-driven developer enablement program for 1,200+ developers at evoke.',
   },
   {
     year: '2022',
-    title: 'AI Engineer',
-    description: 'Developed enterprise AI solutions and deployed models serving millions of users.',
+    title: 'SDLC Modernization Champion',
+    description: 'Defining North Star for SDLC modernization and enterprise tooling strategy.',
   },
   {
-    year: '2020',
-    title: 'Started AI Journey',
-    description: 'Began specializing in artificial intelligence and machine learning technologies.',
+    year: '2015',
+    title: 'Engineering Director',
+    description: 'Promoted to Director at 888.com, leading teams of 100+ engineers.',
+  },
+  {
+    year: '2005',
+    title: 'Software Engineer',
+    description: 'Started hands-on engineering journey at 888.com, progressively advancing to leadership.',
   },
 ];
 
@@ -74,7 +74,7 @@ export function AboutSection() {
             About Me
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Passionate about building AI solutions that make a real impact
+            Director of Engineering with 15+ years leading innovation and transformation at scale
           </p>
         </motion.div>
 
@@ -98,11 +98,11 @@ export function AboutSection() {
                   />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-foreground mb-1">Daniel</h3>
-                  <p className="text-primary font-medium mb-2">AI Engineer & Developer</p>
+                  <h3 className="text-2xl font-bold text-foreground mb-1">Shmuel Daniel</h3>
+                  <p className="text-primary font-medium mb-2">Director of Engineering</p>
                   <div className="flex items-center gap-3 text-sm text-muted-foreground">
-                    <a href="mailto:contact@daniel-ai.com" className="hover:text-foreground transition-colors">
-                      contact@daniel-ai.com
+                    <a href="mailto:Daniel.shmuel@gmail.com" className="hover:text-foreground transition-colors">
+                      Daniel.shmuel@gmail.com
                     </a>
                   </div>
                 </div>
@@ -111,18 +111,13 @@ export function AboutSection() {
               {/* Bio Text */}
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I'm a passionate AI engineer dedicated to building intelligent systems that solve real-world problems. 
-                  With expertise in machine learning, large language models, and full-stack development, I create 
-                  AI-powered applications that make an impact.
+                  Director of Engineering with 15+ years of proven leadership building and scaling high-performing engineering teams of 100+ engineers. Expert in AI transformation, SDLC modernization, and cloud architecture across AWS and distributed systems.
                 </p>
                 <p>
-                  My journey in AI has led me to work on diverse projects, from natural language processing systems 
-                  to computer vision applications. I specialize in deploying production-ready ML models and building 
-                  scalable AI infrastructure.
+                  I've led enterprise-wide initiatives including defining North Star technology strategies, deploying GitHub Copilot to 1,200 developers (achieving 10% productivity gain), and generating £1.5M in annual savings through AI-powered QA automation. Known for aligning engineering execution with business outcomes while mentoring leaders at all levels.
                 </p>
                 <p>
-                  I'm always learning and exploring new technologies in the AI space, staying at the forefront of 
-                  innovations in machine learning and artificial intelligence.
+                  Technically grounded leader with hands-on experience architecting scalable systems, driving organizational transformation, and building sustainable competitive advantages through technology and talent development.
                 </p>
               </div>
 
