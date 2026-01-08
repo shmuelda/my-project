@@ -7,8 +7,8 @@ import { ButtonPrimary } from '@/components/ui/button-primary';
 const contactMethods = [
   {
     name: 'Email',
-    handle: 'contact@daniel-ai.com',
-    href: 'mailto:contact@daniel-ai.com',
+    handle: 'daniel.shmuel@gmail.com',
+    href: 'mailto:daniel.shmuel@gmail.com',
     icon: Mail,
     color: '#007AFF',
   },
@@ -61,7 +61,7 @@ export function CTASection() {
           </p>
 
           <motion.a
-            href="mailto:contact@daniel-ai.com"
+            href="mailto:daniel.shmuel@gmail.com"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-primary text-primary-foreground font-semibold text-lg hover:opacity-90 transition-opacity shadow-lg"
